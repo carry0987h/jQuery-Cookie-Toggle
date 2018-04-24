@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #FFFFFF;
+    line-height: 1.5;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.accordion_container {
+  width: 500px;
+}
+
+.accordion_head {
+  background-color: skyblue;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0 0 1px 0;
+  padding: 7px 11px;
+  font-weight: bold;
+}
+
+.accordion_body {
+  background: lightgray;
+}
+
+.accordion_body p {
+  padding: 18px 5px;
+  margin: 0px;
+}
+
+.plus,
+.minus {
+  float: right;
+}
+
+.collapsed .minus,
+.plus {
+  display: none;
+}
+
+.collapsed .plus {
+  display: inherit;
+}
+
+.footer {
+    clear: both;
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer:before {
+    display: table;
+    content: "";
+}
+
+.link {
+    text-align: center;
+    color: #586069;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #eaecef;
+}
+
+.link img {
+    width: 50px;
+    margin-top: 10px;
+    text-decoration: none;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+}
+
+.link>a {
+    text-decoration: none;
+}
+
+.footer-text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: x-large;
+}
+
+.footer-text>p {
+    color: #586069;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
