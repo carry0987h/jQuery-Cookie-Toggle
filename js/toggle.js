@@ -17,7 +17,7 @@ $(document).ready(function() {
     
     Cookies.set(
       "collapsed_Nodes",
-      $collapsedHeads.map(function(){ return this.getAttribute("node-tag"); }).get().join(''),
+      $collapsedHeads.map(function(){ return this.getAttribute("data-node-tag"); }).get().join(''),
       {
         expires: 7,
         path: ''
